@@ -1,0 +1,9 @@
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\bin\Debug\TDD-Csharp.Tests.dll
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\bin\Debug\TDD-Csharp.Tests.pdb
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\bin\Debug\nunit.framework.dll
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\bin\Debug\TDD-Csharp.dll
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\bin\Debug\TDD-Csharp.pdb
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\bin\Debug\nunit.framework.xml
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\obj\Debug\TDD-Csharp.Tests.csprojResolveAssemblyReference.cache
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\obj\Debug\TDD-Csharp.Tests.dll
+C:\Users\caique\Documents\TDD-CSHARP\TDD-Csharp\TDD-Csharp.Tests\obj\Debug\TDD-Csharp.Tests.pdb
