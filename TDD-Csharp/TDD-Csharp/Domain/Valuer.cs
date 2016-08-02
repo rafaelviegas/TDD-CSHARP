@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TDD_Csharp.Chap1
+namespace TDD_Csharp.Domain
 {
     public class Valuer
     {

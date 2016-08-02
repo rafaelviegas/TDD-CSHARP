@@ -1,5 +1,5 @@
 ﻿
-namespace TDD_Csharp.Chap1
+namespace TDD_Csharp.Domain
 {
     public class User
     {
@@ -15,6 +15,15 @@ namespace TDD_Csharp.Chap1
         {
             this.UserId = userId;
             this.Name = name;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null || obj.GetType() != obj.GetType()) return false;
+
+            var other = (User) obj;
+
+            return other.UserId == this.UserId && other.Name.Equals(this.Name);
         }
     }
 }

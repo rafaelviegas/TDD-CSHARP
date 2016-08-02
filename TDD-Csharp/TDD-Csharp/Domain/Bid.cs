@@ -1,5 +1,5 @@
 ﻿
-namespace TDD_Csharp.Chap1
+namespace TDD_Csharp.Domain
 {
     public class Bid
     {

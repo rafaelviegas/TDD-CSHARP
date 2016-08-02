@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
-
-using TDD_Csharp.Chap1;
+using TDD_Csharp.Domain;
 
 namespace TDD_Csharp.Tests
 {
