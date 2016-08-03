@@ -25,6 +25,12 @@ namespace TDD_Csharp.Tests
 
         }
 
+        [TearDown]
+        public void TearDown()
+        {
+            Console.WriteLine("Fim");
+        }
+
         [Test]
         public void MustUnderstandAuctionWithBidsInAscendingOrder()
         {
@@ -83,10 +89,14 @@ namespace TDD_Csharp.Tests
             Assert.AreEqual(200, higher[2].Value, 0.0001);
         }
 
-        [TearDown]
-        public void TearDown()
+        [Test]
+        public void MustNotEvaluateAuctionsWithoutBid()
         {
-            Console.WriteLine("End");
+
+                var auction = new AuctionBuilder()
+                        .To("Xbox One").Build();
+
+            Assert.Throws<Exception>(() => valuer.Valuation(auction));
         }
     }
 }

@@ -11,6 +11,11 @@ namespace TDD_Csharp.Domain
         private List<Bid> higher;
         public void Valuation(Auction auction)
         {
+            if (auction.Bids.Count == 0)
+            {
+                throw  new Exception("Não é possivel avaliar um leilão sem lances.");
+            }
+
             foreach (var bid in auction.Bids)
             {
                 if (bid.Value > highestofAll)
