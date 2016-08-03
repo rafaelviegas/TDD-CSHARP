@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Domain\Auction.cs" />
     <Compile Include="Domain\Bid.cs" />
+    <Compile Include="Domain\Builders\AuctionBuilder.cs" />
     <Compile Include="Domain\User.cs" />
     <Compile Include="Domain\Valuer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

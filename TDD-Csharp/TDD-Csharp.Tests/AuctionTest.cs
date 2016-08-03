@@ -11,6 +11,7 @@ namespace TDD_Csharp.Tests
         [Test]
         public void MustReceiveOneBid()
         {
+
             Auction auction = new Auction("MacBook Pro 15");
 
             Assert.AreEqual(0,auction.Bids.Count);
